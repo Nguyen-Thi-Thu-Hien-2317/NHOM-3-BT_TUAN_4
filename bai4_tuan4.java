@@ -15,6 +15,6 @@ public class bai4_tuan4 {
             }
             System.out.println("Tong cac so tu 1 den " + n + " la: " + sum);
         }
-        scanner.close();
+        scanner.close();//
     }
 }
