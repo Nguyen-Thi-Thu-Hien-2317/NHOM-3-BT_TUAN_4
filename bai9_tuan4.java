@@ -23,6 +23,6 @@ public class bai9_tuan4 {
         for (int so : danhSachSo) {
             System.out.println(so);
         }
-        scanner.close();
+        scanner.close();//
     }
 }
