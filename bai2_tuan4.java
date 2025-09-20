@@ -10,16 +10,16 @@ public class bai2_tuan4 {
         System.out.print("Nhap so c: ");
         double c = scanner.nextDouble();
 
-        double minNumber = a;
+        double sonhonhat = a;
 
-        if (b < minNumber) {
-            minNumber = b;
+        if (b <sonhonhat) {
+            sonhonhat = b;
         }
-        if (c < minNumber) {
-            minNumber = c;
+        if (c < sonhonhat) {
+           sonhonhat = c;
         }
 
-        System.out.println("So nho nhat trong ba so la: " + minNumber);
+        System.out.println("So nho nhat trong ba so la: " + sonhonhat);
         scanner.close();
     }
 }
