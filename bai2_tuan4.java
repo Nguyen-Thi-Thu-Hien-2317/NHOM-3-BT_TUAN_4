@@ -19,7 +19,7 @@ public class bai2_tuan4 {
            sonhonhat = c;
         }
 
-        System.out.println("So nho nhat trong ba so la: " + sonhonhat);
+        System.out.println("So nho nhat trong ba so la: " + minNumber);
         scanner.close();
     }
 }
